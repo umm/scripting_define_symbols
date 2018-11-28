@@ -1,6 +1,6 @@
 {
   "name": "@umm/scripting_define_symbols",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Handle ScriptingDefineSymbols",
   "homepage": "https://github.com/umm/scripting_define_symbols",
   "bugs": {
