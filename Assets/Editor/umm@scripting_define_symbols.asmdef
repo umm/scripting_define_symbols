@@ -1,0 +1,10 @@
+{
+    "name": "umm@scripting_define_symbols",
+    "references": [],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
