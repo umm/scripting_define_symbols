@@ -1,0 +1,30 @@
+{
+  "name": "@umm/scripting_define_symbols",
+  "version": "0.0.0",
+  "description": "Handle ScriptingDefineSymbols",
+  "homepage": "https://github.com/umm/scripting_define_symbols",
+  "bugs": {
+    "url": "https://github.com/umm/scripting_define_symbols/issues"
+  },
+  "scripts": {
+    "umm:init": "umm-init",
+    "umm:generate_assembly_definition": "umm-generate_assembly_definition",
+    "umm:module:install": "umm-module-install",
+    "umm:module:uninstall": "umm-module-uninstall",
+    "postinstall": "npm run --silent umm:module:install",
+    "postuninstall": "npm run --silent umm:module:uninstall"
+  },
+  "author": "Tetsuya Mori",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:umm/scripting_define_symbols"
+  },
+  "files": [
+    "Assets"
+  ],
+  "dependencies": {
+    "@umm/scripts": "umm/scripts#^1.0.0"
+  },
+  "devDependencies": {}
+}
